@@ -1,0 +1,54 @@
+* {
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(190 214 220);
+}
+
+ul {
+    /* width: 750px; */
+    height: 300px;
+    border: 2px solid black;
+}
+li {
+    width: 20%;
+}
+a {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+
+/* PX - пиксели
+
+% - проценты 
+
+vw - вьюпорт видтн
+
+vh - view port height
+
+em - 
+
+rem -  */
+.block-content {
+    font-size: 0;
+}
+.block-text {
+    width: 50%;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.block-content_second {
+    border: 2px solid red;
+}
+
+.block-text_second {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
